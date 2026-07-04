@@ -1,0 +1,283 @@
+import { Icons } from "@/components/icons";
+import { HomeIcon, icons, NotebookIcon } from "lucide-react";
+import testimonial from "../../public/testimonial.png"
+
+
+export const DATA = {
+  name: "Sidharth Babu",
+  initials: "B",
+  url: "https://mine-main.vercel.app",
+  location: "Coimabatore, TN",
+  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  description:
+    "I’m Sidharth a Full stack web developer. I am currently building small products that interest me.",
+  summary:
+    "I'm currently pursuing B.Tech Artificial Intelligence and Data Science and a Developer",
+  avatarUrl: "/s.png",
+  skills: [
+    "React",
+    "Next.js",
+    "Typescript",
+    "Node.js",
+    "Python",
+    "Postgres",
+    "Docker",
+    "Zod",
+    "Prisma"
+  ],
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+  ],
+  contact: {
+    email: "sidharthinfernal@gmail.com",
+    tel: "7010604488",
+    social: {
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/Sidhu714",
+        icon: Icons.github,
+
+        navbar: true,
+      },
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/sidharth-babu-3351a7223/",
+        icon: Icons.linkedin,
+
+        navbar: true,
+      },
+      X: {
+        name: "X",
+        url: "https://x.com/sidharth_b26649",
+        icon: Icons.x,
+
+        navbar: true,
+      },
+      // Youtube: {
+      //   name: "Youtube",
+      //   url: "https://dub.sh/dillion-youtube",
+      //   icon: Icons.youtube,
+      //   navbar: true,
+      // },
+      email: {
+        name: "Send Email",
+        url: "#",
+        icon: Icons.email,
+
+        navbar: false,
+      },
+    },
+  },
+
+  work: [
+    {
+  company: "KG Genius Labs",
+  href: "",
+  badges: [],
+  location: "Coimbatore, TN",
+  title: "Junior Developer Intern",
+  logoUrl: "/logo.png",
+  start: "July 2025",
+  end: "Sept 2025",
+  description:
+    "Built core modules of a Learning Management System (LMS) using React.js and MySQL. Developed responsive UI components and integrated REST APIs for dynamic data rendering. Designed relational database schema and optimized queries for improved data retrieval performance. Collaborated using Git and GitHub for version control and team-based development."
+},
+{
+  company: "KG Genius Labs",
+  href: "",
+  badges: [],
+  location: "Coimbatore, TN",
+  title: "Junior Software Developer",
+  logoUrl: "/logo.png",
+  start: "Sept 2025",
+  end: "Present",
+  description:
+    "Led development of key LMS features including course management, user dashboards, and progress tracking. Designed scalable, reusable UI component architecture using React.js. Improved application performance by optimizing frontend rendering and backend queries. Integrated REST APIs and resolved production-level bugs and issues. Maintained code quality through modular design and maintainable architecture."
+},
+   
+  ],
+  education: [
+    
+    {
+      school: "Kgisl Institute of Technology",
+      href: "https://www.kgkite.ac.in/",
+      degree: "Bachelors of Technology",
+      logoUrl: "/logo.png",
+      start: "2021",
+      end: "2025",
+    },
+  ],
+  projects: [
+    // {
+    //   title: "Endorsement",
+    //   href: "https://endorsement-nine.vercel.app",
+    //   dates: "Sep 2024 - Jan 2025",
+    //   active: true,
+    //   description:
+    //   "Empowered brands with full control over their reputation through static, pre-optimized review components, easilyembedded to showcase social proof on websites.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "PostgreSQL",
+    //     "Prisma",
+    //     "TailwindCSS",
+    //     "Shadcn UI",
+    //     "Magic UI",
+    //     "React Tweet"
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://endorsement-nine.vercel.app",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/sidhuiwnl/Endorsement",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "https://us7xgl2xx9.ufs.sh/f/NLwJvYRc8DXf3vGwW0isbXmI3YHQN04kTMVZd6ocBzphKPuy",
+    //   video : ""
+    // },
+    {
+      title: "Surge",
+      href: "",
+      dates: "Jan 2025 - Feb 2025",
+      active: true,
+      description:
+          "Surge is a meeting bot that records meetings and generates AI-powered summaries of the recordings.",
+      technologies: [
+        "Reactjs",
+        "clerk auth",
+        "Puppeteer",
+        "Typescript",
+        "Websocket",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/sidhuiwnl/Surge",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video : "https://us7xgl2xx9.ufs.sh/f/NLwJvYRc8DXful67cE36uPjeydlQ1VcfNSsXmpHwDFZAxrE4"
+    },
+    {
+      title: "Tofu",
+      href: "https://automatic.chat",
+      dates: "April 2023 - March 2024",
+      active: true,
+      description:
+        "Developed a streamlined code editor with WebSocket communication for real-time collaboration",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Monoco Editor",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Websocket"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://tofu-5thp.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Sidhu714/Tofu",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://us7xgl2xx9.ufs.sh/f/NLwJvYRc8DXfxejX6zWm4ksrP56YLq2leFJcIjgK3CZnbUTf",
+      video:
+        "",
+    },
+
+  ],
+  Milestone: [
+    {
+      title: "Surge",
+      dates: "Jan 10 - 27th, 2025",
+      description:
+          "Developed a Meeting Bot that records the meeting and able to generate contents related to the recordings",
+      icon: "public",
+      links: [
+        {
+          title : "Github",
+          icon : <Icons.github className="h-4 w-4" />,
+          href : "https://github.com/sidhuiwnl/Surge"
+
+        }
+      ],
+    }
+      ,
+    {
+      title: "Commit-ai(Nodejs)",
+      dates: "Nov 27 - 27th, 2024",
+      description:
+        "Developed a nodejs application generate commit message based on the git changes",
+      icon: "public",
+      links: [
+        {
+          title : "Github",
+          icon : <Icons.github className="h-4 w-4" />,
+          href : "https://github.com/sidhuiwnl/cli-ai"
+
+        }
+      ],
+    },
+    {
+      title: "Commit-ai(Rust)",
+      dates: "Nov 29 - 29th, 2024",
+      description:
+        "Developed a Rust application to generate commit message(My first project)",
+      links: [
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/sidhuiwnl/commitai",
+        },
+      ],
+    },
+    {
+      title: "Mesamous",
+      dates: "January 10th - 12th, 2024",
+      description:
+        "An anonymous app where people can share their thoughts of someone without needing of any process",
+      links: [
+        {
+          title: "Live",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://mesamous.vercel.app",
+        },
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/sidhuiwnl/mesamous",
+        },
+      ],
+    },
+    {
+      title: "YT Audio Downloader",
+      dates: "October 10th - 11th, 2024",
+      description:
+        "A Nodejs application for extract audio from the youtube video",
+      links: [
+        {
+          title: "Github",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/sidhuiwnl/youtube-downloader-main",
+        },
+      ],
+    },
+  ],
+} as const;
