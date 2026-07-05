@@ -10,7 +10,7 @@ export const DATA = {
   location: "Coimabatore, TN",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "I’m Sidharth a Full stack web developer. I am currently building small products that interest me.",
+    "Developer. I am currently building small products that interest me.",
   summary:
     "I'm currently pursuing B.Tech Artificial Intelligence and Data Science and a Developer",
   avatarUrl: "/s.png",
@@ -198,6 +198,37 @@ export const DATA = {
         },
       ],
       image: "https://us7xgl2xx9.ufs.sh/f/NLwJvYRc8DXfxejX6zWm4ksrP56YLq2leFJcIjgK3CZnbUTf",
+      video:
+        "",
+    },
+     {
+      title: "Otell",
+      href: "https://automatic.chat",
+      dates: "June 2026 - July 2026",
+      active: true,
+      description:
+        "A zero-config local OpenTelemetry collector with a built-in UI — trace waterfall, flame graph, service dependency graph, and slow-span detection. No signup, no SaaS, runs entirely on your machine.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "OpenTelemetry",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Websocket"
+      ],
+      links: [
+        {
+          type: "Npm Package",
+          href: "https://www.npmjs.com/package/otel",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Sidhu714/otel",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
       video:
         "",
     },
